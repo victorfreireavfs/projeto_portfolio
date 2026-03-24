@@ -1,94 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Portfólio - Antônio Victor</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="particulas"></div>
+
     <nav class="navegacao">
-        <ul class="menu">
-            <li>
-                <a href="#inicio" class="menu-link">Início</a>
-            </li>
-            <li>
-                <a href="#sobre" class="menu-link">Sobre</a>
-            </li>
-            <li>
-                <a href="#projetos" class="menu-link">Projetos</a>
-            </li>
-            <li>
-                <a href="#contatos" class="menu-link">Contato</a>
-            </li>
-        </ul>
+      <ul class="menu">
+        <li>
+          <a href="#inicio" class="menu-link">Início</a>
+        </li>
+        <li>
+          <a href="#sobre" class="menu-link">Sobre</a>
+        </li>
+        <li>
+          <a href="#projetos" class="menu-link">Projetos</a>
+        </li>
+        <li>
+          <a href="#contatos" class="menu-link">Contato</a>
+        </li>
+      </ul>
     </nav>
 
     <main id="inicio" class="cabecalho">
-            <img src="./assets/img/foto_perfil.png" alt="Foto Perfil" class="foto-perfil">
-            <h1>Antônio Victor</h1>
-            <p class="cabecalho-subtitulo">Estudante de ADS com foco em Desenvolvimento Python</p>
+      <img
+        src="./assets/img/foto_perfil.png"
+        alt="Foto Perfil"
+        class="foto-perfil"
+      />
+      <h1>Antônio Victor</h1>
+      <p class="cabecalho-subtitulo">
+        Estudante de ADS com foco em Desenvolvimento Python
+      </p>
     </main>
 
     <section id="sobre" class="sobre">
-        <h2 class="sobre-titulo">Sobre mim</h2>
-        <div class="sobre-caixa">
-            <p class="sobre-paragrafo">
-                🎓 Conhecimentos em HTML, CSS e JavaScript com projetos publicados. <br>
-                💻 Primeiros projetos desenvolvidos em Python para rodar em terminal. <br>
-                📚 Atualmente estudando Desenvolvimento Web e Banco de Dados. <br>
-                🎯 Evoluindindo para áreas de IA, automações e Data Science.
-            </p>
-        </div>
+      <h2 class="sobre-titulo">Sobre mim</h2>
+      <div class="sobre-caixa">
+        <p class="sobre-paragrafo">
+          🎓 Conhecimentos em HTML, CSS e JavaScript com projetos publicados.
+          <br />
+          💻 Primeiros projetos desenvolvidos em Python para rodar em terminal.
+          <br />
+          📚 Atualmente estudando Desenvolvimento Web e Banco de Dados. <br />
+          🎯 Evoluindindo para áreas de IA, automações e Data Science.
+        </p>
+      </div>
     </section>
 
     <section id="projetos" class="projetos">
-        <h2 class="projetos-titulo">Meus Projetos</h2>
-        <div class="projetos-caixa">
-            
-            <div class="projetos-card">
-                <img src="./assets/img/preview_cron.jpeg" alt="preview-cronometro" class="projetos-imagem">
-                <h3 class="info-projetos">Cronômetro</h3>
-                <p class="paragrafo-projetos">Cronômetro interativo com modo-escuro, hora atual e links para redes soiciais.
-                </p>
-            </div>
-            
-            <div class="projetos-card">
-                <img src="./assets/img/preview_tlou.jpeg" alt="preview-tlou" class="projetos-imagem">
-                <h3 class="info-projetos">The Last of Us</h3>
-                <p class="paragrafo-projetos">Este é um projeto de jogo desenvolvido com HTML, CSS e JavaScript. Possui funcionalidades de navegação e links para redes sociais.</p>
-            </div>
-            
-            <div class="projetos-card">
-                <img src="./assets/img/preview_imc.png" alt="preview-calculadora" class="projetos-imagem">
-                <h3 class="info-projetos">Calculadora de IMC</h3>
-                <p class="paragrafo-projetos">Aplicação que calcula o Índice de Massa Corporal (IMC) com base no peso e altura informados pelo usuário.</p>
-            </div>
-            
-            <div class="projetos-card">
-                <img src="./assets/img/preview_cad.jpeg" alt="preview-cad" class="projetos-imagem">
-                <h3 class="info-projetos">Cadastro de Usuários</h3>
-                <p class="paragrafo-projetos">Simulação de um Sistema de Cadastro de Funcionários em Python.</p>
-            </div>
-
+      <h2 class="projetos-titulo">Meus Projetos</h2>
+      <div class="projetos-caixa">
+        <div class="projetos-card">
+          <img
+            src="./assets/img/preview_cron.jpeg"
+            alt="preview-cronometro"
+            class="projetos-imagem"
+          />
+          <div class="caixa-textos-projeto">
+            <h3 class="info-projetos">Cronômetro</h3>
+            <p class="paragrafo-projetos">
+              Cronômetro interativo com modo-escuro, hora atual e links para
+              redes soiciais.
+            </p>
+          </div>
         </div>
 
+        <div class="projetos-card">
+          <img
+            src="./assets/img/preview_tlou.jpeg"
+            alt="preview-tlou"
+            class="projetos-imagem"
+          />
+          <div class="caixa-textos-projeto">
+            <h3 class="info-projetos">The Last of Us</h3>
+            <p class="paragrafo-projetos">
+              Este é um projeto de jogo desenvolvido com HTML, CSS e JavaScript.
+              Possui funcionalidades de navegação e links para redes sociais.
+            </p>
+          </div>
+        </div>
+
+        <div class="projetos-card">
+          <img
+            src="./assets/img/preview_imc.png"
+            alt="preview-calculadora"
+            class="projetos-imagem"
+          />
+          <div class="caixa-textos-projeto">
+            <h3 class="info-projetos">Calculadora de IMC</h3>
+            <p class="paragrafo-projetos">
+              Aplicação que calcula o Índice de Massa Corporal (IMC) com base no
+              peso e altura informados pelo usuário.
+            </p>
+          </div>
+        </div>
+
+        <div class="projetos-card">
+          <img
+            src="./assets/img/preview_cad.jpeg"
+            alt="preview-cad"
+            class="projetos-imagem"
+          />
+          <div class="caixa-textos-projeto">
+            <h3 class="info-projetos">Cadastro de Usuários</h3>
+            <p class="paragrafo-projetos">
+              Simulação de um Sistema de Cadastro de Funcionários em Python.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="contatos" class="contatos">
-        <h2 class="contatos-titulo">Contatos</h2>
-        <form class="formulario-contato" id="formulario">
-            <div>
-                <input type="text" placeholder="Nome">
-            </div>
+      <h2 class="contatos-titulo">Entre em Contato</h2>
+      <form class="formulario-contato" id="formulario">
+        <div class="grupo-form">
+          <input placeholder="Nome" class="campo-form" />
+        </div>
 
-            <div>
-                <textarea name="" id="" placeholder="Digite sua mensagem aqui..."></textarea>
-            </div>
-            <button type="submit">Enviar</button>
-        </form>
+        <div class="grupo-form">
+          <textarea
+            class="campo-form"
+            placeholder="Digite sua mensagem aqui..."
+          ></textarea>
+        </div>
+
+        <button type="submit" class="botao-form">Enviar WhatsApp</button>
+      </form>
     </section>
-
-
-</body>
+  </body>
 </html>
